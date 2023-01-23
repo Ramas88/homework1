@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  font-family: "Montserrat";
+}
+.header_top {
+  width: 1440px;
+  height: 1024px;
+}
+.header .header_title {
+  font-size: 64px;
+  line-height: 78px;
+  text-align: Left;
+  vertical-align: Center;
+  margin-top: 217px;
+}
+.header_text {
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: 32px;
+}
+.header_button {
+  margin-top: 44px;
+  background-color: #9c0332;
+}/*# sourceMappingURL=style.css.map */

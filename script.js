@@ -30,8 +30,8 @@ num += 5;
 num -= 3;
 num *= 7;
 num /= 3;
-num = ++num;
-num = --num;
+num++;
+num++;
 alert(num);
 
 let age = prompt("Сколько вам лет?");
@@ -39,11 +39,18 @@ alert(age);
 
 let user = {
   name: "Alex",
-  friends: 34,
+  age: 34,
+  isAdmin: false,
 };
+
+user["city of residence"] = true;
+
+user.age = "36";
+
+delete user["city of residence"];
+
 let info = prompt("Какую информацию хотите узнать о пользователе?");
-alert(info);
+alert[`info + user.name + user.age`];
 
 let guest = prompt("Как вас зовут?");
-let hello = guest;
 alert(`Привет, ${guest}`);

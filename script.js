@@ -33,10 +33,8 @@ while (n >= 50) {
 }
 console.log("Итераций: " + num + " Результат деления: " + n);
 
-for (let fridayNumber = 1; fridayNumber <= 31; fridayNumber++) {
-  if (fridayNumber % 5 == 0) {
-    console.log(
-      `Сегодня пятница, ${fridayNumber}-e число. Необходимо подготовить отчет`
-    );
-  }
+for (let fridayNumber = 3; fridayNumber <= 28; fridayNumber += 7) {
+  console.log(
+    `Сегодня пятница, ${fridayNumber}-e число. Необходимо подготовить отчет`
+  );
 }

@@ -136,8 +136,9 @@ console.log("Задание 12");
 
 const arrSort = Array(10);
 
-for (let i = 0; i < arrSort.length; i++) {
-  arrSort[(i += 1)] = Math.round(Math.random() * 11);
+for (let i = 1; i < arrSort.length; i++) {
+  arrSort[i] = Math.round(Math.random() * 11);
+  console.log(arrSort[i - 1]);
 }
 
 console.log(arrSort);

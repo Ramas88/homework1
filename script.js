@@ -54,7 +54,7 @@ for (let i = 0; i < 3; i++) {
 
 console.log(numArr);
 
-// Задание 6
+//Задание 6
 console.log("Задание 6");
 
 let numPush = [1, 1, 1];
@@ -134,11 +134,13 @@ console.log(resultConcat);
 // Задание 12
 console.log("Задание 12");
 
-const arrSort = Array(10);
+const arrSort = [];
 
-for (let i = 1; i < arrSort.length; i++) {
-  arrSort[i] = Math.round(Math.random() * 11);
-  console.log(arrSort[i - 1]);
+for (let i = 1; i < 10; i++) {
+  arrSort.push(Math.round(Math.random() * 10));
 }
-
 console.log(arrSort);
+
+for (i = 0; i < arrSort.length - 1; i++) {
+  console.log(arrSort[i] + arrSort[i + 1]);
+}

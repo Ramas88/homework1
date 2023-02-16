@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.header {
+  font-family: "Montserrat";
+}
+.header_top {
+  width: 1440px;
+  height: 1024px;
+  background-image: url(/img/backimg1.png);
+}
+.header_title {
+  font-size: 64px;
+  line-height: 78px;
+  text-align: Left;
+  padding-top: 217px;
+  color: #ffffff;
+  width: 788.78px;
+}
+.header_text {
+  width: 481px;
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: 32px;
+  color: #ffffff;
+}
+.header_button {
+  margin-top: 44px;
+  background-color: #9c0332;
+  padding: 13.3px 74px;
+  border-radius: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.games {
+  width: 1440px;
+  height: 556px;
+  background-color: #000915;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  padding-left: 120px;
+  color: #ffffff;
+  display: flex;
+  gap: 32px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-bottom: 128px;
+  padding-top: 128px;
+}
+.games_img {
+  border-radius: 30px;
+  width: 378px;
+  height: 300px;
+  grid-column: span 3;
+}/*# sourceMappingURL=style.css.map */

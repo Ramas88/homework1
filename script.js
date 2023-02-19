@@ -33,9 +33,7 @@ for (let i = 0; i < tenArr.length; i++) {
   tenArr[i] = Math.round(Math.random() * 11);
   if (tenArr[i] % 2 === 0) {
     evenArr.push(tenArr[i]);
-  }
-}
-
+  
 console.log(tenArr);
 console.log(evenArr);
 
@@ -54,6 +52,22 @@ for (let i = 0; i < 3; i++) {
 
 console.log(numArr);
 
+//Задание 5
+console.log("Задание 5");
+
+"use strict";
+
+let checkNum1 = prompt("Введите любое первое число");
+let checkNum2 = prompt("Введите любое второе число");
+
+function checkNum(g, h) 
+   
+if (isNaN(${checkNum1}) && isNaN(${checkNum2})) {
+        console.log(g * h);
+}  else {
+  console.log(`Одно или оба значения не являются числом`);
+   }
+   checkNum();
 //Задание 6
 console.log("Задание 6");
 
